@@ -1,0 +1,99 @@
+body {
+    background-color: #f3eaff;
+    background: linear-gradient(to right, #f4f2f8, #d4c2f1);
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    float: right;
+    font-size: 20px;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 50px;
+    color: black;
+}
+
+.button{
+    padding: 8px 20px;
+    border: 3px solid #663185;
+    border-radius: 4px;
+    
+}
+
+img {
+    width: 150px;
+    padding: auto;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 52px;
+    color: #462a57;
+    line-height: 1.2;
+}
+
+h1 span {
+    color: #8c4eff;
+}
+
+p {
+    font-size: 19px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.doc {
+    margin-top: 150px;
+    margin-left: 90px;
+    font-size: 25px;
+}
+
+.laptop {
+    float: right;
+    width: 850px;
+    margin: 100px 100px;
+}
+
+.btn {
+    margin-left: 90px;
+    display: inline-block;
+    padding: 12px 40px;
+    background: linear-gradient(to right, #5679db, #c64ef7);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px){
+    .navbar{
+        display: block;
+    }
+}
+@media only screen and (max-width: 420px){
+    .navbar a {
+        display: block;
+    }
+    .nav-btn{
+        text-align: left;
+    }
+    .laptop{
+        margin-top: 30px;
+        width: 100%;
+    }
+}
